@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Teko";
+  src: local("Teko"), url(./assets/font/Teko-Regular.ttf) format(truetype);
+}
+
+body {
+  font-family: "Teko", sans-serif;
+}
+

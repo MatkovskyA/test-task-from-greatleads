@@ -5,15 +5,11 @@ export default {
   ],
   theme: {
     screens: {
+      "2xl": "1536px",
       "xl": "1440px",
       "md": "1024px"
     },
     extend: {
-      colors: {
-        "white": "rgb(255, 255, 255)",
-        "gray": "rgb(128, 128, 128)",
-        "black": "rgb(0, 0, 0)",
-      }
     },
   },
   plugins: [],

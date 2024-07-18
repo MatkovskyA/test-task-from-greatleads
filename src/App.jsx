@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import { Wrapper } from './components/wrapper/Wrapper'
+import { Header } from './components/Header'
+import { Footer } from './components/Footer'
+import { Hero } from './components/Hero'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <Wrapper>
-      {/* Header */}
-      <h1>Hello world</h1>
-      {/* Footer */}
-    </Wrapper>
+    <>
+      <Header />
+      <Hero />
+      <Footer />
+    </>
   )
 }
 

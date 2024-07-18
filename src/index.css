@@ -3,11 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Teko";
-  src: local("Teko"), url(./assets/font/Teko-Regular.ttf) format(truetype);
+  font-family: "Nunito";
+  src: local("Nunito"), url(./assets/font/Nunito-Regular.ttf) format(truetype);
+}
+
+svg {
+  display: flex;
+  align-self: center;
 }
 
 body {
   font-family: "Teko", sans-serif;
+  background-color: black;
+  height: 100%;
 }
 
